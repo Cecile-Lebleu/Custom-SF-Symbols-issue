@@ -11,13 +11,13 @@ struct ContentView: View {
 	var body: some View {
 		ZStack {
 			Image("donut-4-1")
-				.foregroundColor(.red)
+				.foregroundStyle(.red, .clear)
 			Image("donut-4-2")
-				.foregroundColor(.orange)
+				.foregroundStyle(.orange, .clear)
 			Image("donut-4-3")
-				.foregroundColor(.yellow)
+				.foregroundStyle(.yellow, .clear)
 			Image("donut-4-4")
-				.foregroundColor(.green)
+				.foregroundStyle(.green, .clear)
 		}
 		.font(.system(size: 80))
 	}
